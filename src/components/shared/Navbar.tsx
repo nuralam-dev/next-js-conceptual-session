@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#FFFFFF] container mx-auto flex justify-between items-center space-y-1.5 mt-2.5">
+    <div className="bg-[#FFFFFF] container mx-auto flex justify-between items-center space-y-1.5 mt-2.5 p-2">
       {/* logo */}
       <div className="flex items-center gap-1">
         <Image src={logo} alt="logo" width={30} height={30}></Image>
@@ -18,7 +18,7 @@ const Navbar = () => {
         <li>
           <Link
             href="./"
-            className="relative py-1 font-bold text-gray-800 transition-all duration-300 group hover:bg-gradient-to-r hover:from-[#632DF8] hover:to-[#A020F0] hover:bg-clip-text hover:text-transparent"
+            className="relative py-1 font-semibold text-gray-800 transition-all duration-300 group hover:bg-gradient-to-r hover:from-[#632DF8] hover:to-[#A020F0] hover:bg-clip-text hover:text-transparent"
           >
             Home
             {/* Hover Gradient Underline */}
@@ -28,7 +28,7 @@ const Navbar = () => {
         <li>
           <Link
             href="./"
-            className="relative py-1 font-bold text-gray-800 transition-all duration-300 group hover:bg-gradient-to-r hover:from-[#632DF8] hover:to-[#A020F0] hover:bg-clip-text hover:text-transparent "
+            className="relative py-1 font-semibold text-gray-800 transition-all duration-300 group hover:bg-gradient-to-r hover:from-[#632DF8] hover:to-[#A020F0] hover:bg-clip-text hover:text-transparent "
           >
             Apps
             {/* Hover Gradient Underline */}
@@ -38,7 +38,7 @@ const Navbar = () => {
         <li>
           <Link
             href="./"
-            className="relative py-1 font-bold text-gray-800 transition-all duration-300 group hover:bg-gradient-to-r hover:from-[#632DF8] hover:to-[#A020F0] hover:bg-clip-text hover:text-transparent "
+            className="relative py-1 font-semibold text-gray-800 transition-all duration-300 group hover:bg-gradient-to-r hover:from-[#632DF8] hover:to-[#A020F0] hover:bg-clip-text hover:text-transparent "
           >
             Installation
             {/* Hover Gradient Underline */}
@@ -47,7 +47,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* btn */}
-      <button className="btn bg-gradient-to-r from-[#9747FF] to-[#AB64F6] text-white">
+      <button className="btn bg-gradient-to-r from-[#9747FF] to-[#AB64F6] text-white font-bold">
         <FaGithub />
         Contribute
       </button>
