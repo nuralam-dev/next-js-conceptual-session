@@ -1,14 +1,10 @@
 import { IApp } from "@/types/app.types";
 import AppCard from "../shared/AppCard";
+import { getAllTrendingApps } from "@/lib/apps";
 
-const getAllTrendingApps = async () => {
-  const res = await fetch("http://localhost:3000/data.json");
-  const data = res.json();
-  return data;
-};
 const TrendingApps = async () => {
-  const trendingApps = await getAllTrendingApps();
-  console.log(trendingApps);
+  const trendingApps = await getAllTrendingApps()
+
   return (
     <div className="container mx-auto">
       <div className="text-center my-[80px]">

@@ -27,7 +27,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            href="./"
+            href="/apps"
             className="relative py-1 font-semibold text-gray-800 transition-all duration-300 group hover:bg-gradient-to-r hover:from-[#632DF8] hover:to-[#A020F0] hover:bg-clip-text hover:text-transparent "
           >
             Apps
@@ -37,7 +37,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            href="./"
+            href=""
             className="relative py-1 font-semibold text-gray-800 transition-all duration-300 group hover:bg-gradient-to-r hover:from-[#632DF8] hover:to-[#A020F0] hover:bg-clip-text hover:text-transparent "
           >
             Installation
