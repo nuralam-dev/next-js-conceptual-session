@@ -1,11 +1,12 @@
-import Banner from '@/components/Banner';
+import Banner from '@/components/homePage/Banner';
+import TrendingApps from '@/components/homePage/TrendingApps';
 import React from 'react';
 
 const page = () => {
   return (
     <div>
       <Banner></Banner>
-      <h1>Hello World</h1>
+      <TrendingApps></TrendingApps>
     </div>
   );
 };
